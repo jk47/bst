@@ -30,13 +30,5 @@ class Node
     array[1...-1].each{ |val|
       tree.add_node(val, tree)
     }
-
-
-
-
   end
-
-
-
-
 end
